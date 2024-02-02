@@ -9,5 +9,5 @@ export default defineConfig({
     },
   },
   site: "https://diegobernal17.github.io",
-  base: "/minimalist-portfolio-json",
+  //base: "/minimalist-portfolio-json",
 });

@@ -1,37 +1,68 @@
 ---
-import Section from "../Section.astro"
+import Section from "../Section.astro";
 
-import { projects } from "@cv"
+import { getI18N } from "@/i18n/";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+const { projects } = i18n.cv;
 ---
 
-<Section title="Proyectos">
+<Section title={i18n.PROJECTS} noPrint>
   <ul>
     {
-      projects.map(({ url, description, highlights, name, isActive }) => {
-        return (
-          <li>
-            <article>
-              <header>
-                <h3>
-                  <a href={url} title={`Ver el proyecto ${name}`}>
-                    {name}
-                  </a>
-                  {isActive && <span>•</span>}
-                </h3>
-                <p>{description}</p>
-              </header>
-              <footer>
-                {highlights.map((highlight) => {
-                  return <span>{highlight}</span>
-                })}
-              </footer>
-            </article>
-          </li>
-        )
-      })
+      projects.map(
+        ({ url, description, highlights, name, isActive, image }) => {
+          return (
+            <li>
+              <article id="project">
+                {image && <img src={image} alt="GFG image" />}
+                <header>
+                  <h3>
+                    {url ? (
+                      <a
+                        href={url}
+                        title={`Ver el proyecto ${name}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {name}
+                      </a>
+                    ) : (
+                      name
+                    )}
+                    {isActive && <span>•</span>}
+                  </h3>
+                  <p>{description}</p>
+                </header>
+                <footer>
+                  {highlights.map((highlight) => (
+                    <span>{highlight}</span>
+                  ))}
+                </footer>
+              </article>
+            </li>
+          );
+        }
+      )
     }
   </ul>
 </Section>
+
+<script>
+  // Encuentra todos los botones con la clase `alert` en la página.
+  const buttons = document.querySelectorAll("article#project");
+
+  // Maneja los clics en cada botón.
+  buttons.forEach((button) => {
+    button.addEventListener("click", (ev) => {
+      const element = ev.currentTarget as Element;
+      const img = element.querySelector("img");
+      if (!img) return;
+      img.style.display = img.style.display === "block" ? "none" : "block";
+    });
+  });
+</script>
 
 <style>
   ul {
@@ -61,10 +92,9 @@ import { projects } from "@cv"
 
   article a {
     color: #111;
-  }
-
-  article a:hover {
-    text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   article p {
@@ -91,5 +121,10 @@ import { projects } from "@cv"
     font-size: 0.6rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
+    letter-spacing: normal;
+  }
+  img {
+    display: none;
+    max-height: 160px;
   }
 </style>

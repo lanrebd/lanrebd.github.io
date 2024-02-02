@@ -1,11 +1,13 @@
 ---
-import Section from "../Section.astro"
+import Section from "../Section.astro";
+import { getI18N } from "@/i18n/";
 
-import { basics } from "@cv"
-const { summary } = basics
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+const { summary } = i18n.cv.basics;
 ---
 
-<Section title="Sobre mí">
+<Section title={i18n.ABOUT_ME}>
   <p>
     {summary}
   </p>

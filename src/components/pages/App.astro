@@ -1,0 +1,44 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Skills from "@/components/sections/Skills.astro";
+import Interests from "@/components/sections/Interests.astro";
+import LanguageSelector from "@/components/LanguageSelector.astro";
+
+import KeyboardManager from "@/components/KeyboardManager.astro";
+
+import { getI18N } from "@/i18n/";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+
+const { name, label } = i18n.cv.basics;
+const firstName = name.split(" ")[0];
+---
+
+<Layout title={`${i18n.PORTFOLIO_OF} ${firstName} - ${label}`}>
+  <LanguageSelector />
+  <main>
+    <Hero />
+    <About />
+    <Experience />
+    <Education />
+    <Projects />
+    <Skills />
+    <Interests />
+  </main>
+
+  <KeyboardManager />
+</Layout>
+
+<style>
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+</style>

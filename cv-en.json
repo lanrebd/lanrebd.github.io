@@ -1,0 +1,319 @@
+{
+  "basics": {
+    "name": "Diego Iván Padilla Bernal",
+    "label": "Full Stack JS Developer",
+    "image": "/me.webp",
+    "birthday": "1996-01-17",
+    "email": "diego.bernal17@gmail.com",
+    "phone": "+52 8442220828",
+    "url": "https://diegobernal17.github.io/",
+    "summary": "With over 5 years of experience in web development, I have delved into the realm of programming, creating a wide range of websites and web applications for diverse clients and also as a hobby. More than anything, my expertise lies in solving problems and addressing needs through code, while also assisting fellow developers in growing within the world of web development.",
+    "location": {
+      "address": "",
+      "postalCode": "25000",
+      "city": "Saltillo",
+      "countryCode": "MX",
+      "region": "México"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "diegopbernal",
+        "url": "https://www.linkedin.com/in/diegopbernal"
+      },
+      {
+        "network": "GitHub",
+        "username": "diegobernal17",
+        "url": "https://github.com/diegobernal17"
+      },
+      {
+        "network": "Platzi",
+        "username": "diego-p-bernal",
+        "url": "https://platzi.com/p/diego-p-bernal"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Voth Solutions",
+      "position": "Web developer",
+      "startDate": "2019-07-10",
+      "endDate": "2024-02-01",
+      "summary": "I developed and led various projects, mainly web systems. Some of them include: an ERP (a system that helped simplify work processes), an industrial cafeteria system, a system for registration and control of individuals with facial and fingerprint recognition, along with its corresponding reports. Additionally, I worked on a system for event and news management, among other websites.",
+      "highlights": ["Lead developer", "Senior developer", "Web Developer"]
+    },
+    {
+      "name": "A&T Sort Company",
+      "position": "Software developer",
+      "startDate": "2018-08-01",
+      "endDate": "2019-04-01",
+      "summary": "I developed new modules and contributed to the maintenance of their internal ERP system. Additionally, I initiated the development of their web application using React Native.",
+      "highlights": []
+    },
+    {
+      "name": "GESO 'PÁGINAS WEB'",
+      "position": "Web programeer",
+      "startDate": "2018-06-01",
+      "endDate": "2019-06-01",
+      "summary": "I was responsible for the development of various websites for the clients of the company, using HTML, CSS, and VanillaJS.",
+      "highlights": []
+    },
+    {
+      "name": "Freelance",
+      "position": "Freelance programmer",
+      "startDate": "2016-01-01",
+      "endDate": "2018-06-01",
+      "summary": "I created everything from simple web pages and programs to more elaborate systems, programmed in Java, C#, C++, Visual Basic .Net, and PHP. As a result, I started selling what I programmed to other people.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnológico de Saltillo",
+      "url": "https://saltillo.tecnm.mx",
+      "area": "Computer Systems Engineer",
+      "studyType": "University",
+      "startDate": "2014-08-01",
+      "endDate": "2019-07-01",
+      "score": "8.2"
+    },
+    {
+      "institution": "CETIS 48",
+      "url": "https://cetis48dgeti.edu.mx/indice/",
+      "area": "Computer Technician",
+      "studyType": "High School",
+      "startDate": "2011-08-01",
+      "endDate": "2014-07-01",
+      "score": "8.0"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Web Development", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Web Development", "Frontend", "Responsive design"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+    },
+    {
+      "name": "Express",
+      "level": "Advanced",
+      "keywords": ["Backend", "Node Framework", "JavaScript", "Server"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": ["Version control", "Collaboration", "Source code"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Advanced",
+      "keywords": ["Version control", "Collaboration", "Source code", "Git"]
+    },
+    {
+      "name": "React",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Remix.run",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend", "Backend", "React Framework"]
+    },
+    {
+      "name": "Astro",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend", "Backend"]
+    },
+    {
+      "name": "Svelte",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Advanced",
+      "keywords": ["Bases de Datos", "SQL", "Data Storage", "Backend"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Principiante",
+      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Intermediate",
+      "keywords": ["Databases", "NoSQL", "Data Storage", "Backend"]
+    },
+    {
+      "name": "Linux",
+      "level": "Intermediate",
+      "keywords": ["Backend"]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermediate",
+      "keywords": ["Cloud"]
+    },
+    {
+      "name": "Process monitoring",
+      "level": "Intermediate",
+      "keywords": ["Backend"]
+    },
+    {
+      "name": "Server provisioning",
+      "level": "Intermediate",
+      "keywords": ["Backend"]
+    },
+    {
+      "name": "DBA",
+      "level": "Intermediate",
+      "keywords": ["Backend"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Reading",
+      "keywords": ["Universe", "Physics", "Psychology"]
+    },
+    {
+      "name": "Sport",
+      "keywords": ["Gym", "Running"]
+    },
+    {
+      "name": "Videogames",
+      "keywords": ["RPG", "FPS", "Multiplayer"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Web app 1",
+      "isActive": true,
+      "image": "/projects/project-1.webp",
+      "description": "Customized system for customer management, quotations, and salespersons with reporting system",
+      "highlights": ["CRM", "Quoting tool", "Reports"],
+      "url": null
+    },
+    {
+      "name": "Web app 2",
+      "isActive": false,
+      "image": "/projects/project-2.webp",
+      "description": "Customized system for enterprise use, which facilitates control and registration of the company's workflow.",
+      "highlights": ["ERP", "Quoting tool", "Reports"],
+      "url": null
+    },
+    {
+      "name": "Industrial cafeteria",
+      "isActive": true,
+      "image": "/projects/project-3.webp",
+      "description": "Small sales system for an industrial cafeteria, which manages meal and employee control.",
+      "highlights": ["CRUD", "Sales system"],
+      "url": null
+    },
+    {
+      "name": "Events and content",
+      "isActive": true,
+      "image": "/projects/project-4.webp",
+      "description": "Progressive Web App (PWA) for viewing events and news about music and entertainment.",
+      "highlights": ["Events", "News", "Entertainment"],
+      "url": null
+    },
+    {
+      "name": "People Management",
+      "isActive": true,
+      "image": "/projects/project-5.webp",
+      "description": "System for the registration and control of individuals, incorporating various actions, with integrated facial and fingerprint recognition.",
+      "highlights": [
+        "People Registration",
+        "Facial Recognition",
+        "Fingerprint Recognition"
+      ],
+      "url": null
+    },
+    {
+      "name": "ERP",
+      "isActive": true,
+      "image": "/projects/project-6.webp",
+      "description": "Bespoke software for the internal control of processes and activities within the company.",
+      "highlights": ["ERP", "Sistema completo"],
+      "url": null
+    },
+    {
+      "name": "node-hbs-to-pdf",
+      "isActive": true,
+      "image": "/projects/project-7.webp",
+      "description": "NPM package for converting Handlebars templates to PDF, used in the creation of PDF reports.",
+      "highlights": ["NPM Package", "libreria", "node"],
+      "url": "https://www.npmjs.com/package/node-hbs-to-pdf"
+    },
+    {
+      "name": "addresses api service",
+      "isActive": true,
+      "image": "/projects/project-8.webp",
+      "description": "Mexican Addresses API for retrieving states, cities, and neighborhoods.",
+      "highlights": ["API", "Service", "Node"],
+      "url": null
+    },
+    {
+      "name": "Matrix calculator",
+      "isActive": false,
+      "description": "First major open-source development for performing various matrix calculations.",
+      "highlights": ["Java", "Legacy"],
+      "url": null
+    }
+  ]
+}

@@ -1,264 +1,339 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "name": "Diego Iván Padilla Bernal",
+    "label": "Full Stack JS Developer",
     "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "birthday": "1996-01-17",
+    "email": "diego.bernal17@gmail.com",
+    "phone": "+52 8442220828",
+    "url": "https://diegobernal17.github.io/",
+    "summary": "Con más de 5 años de experiencia en el desarrollo web. Me he adentrado en este mundo de la programación y he desarrollado una gran variedad de páginas y aplicaciones web para diversos clientes y también como pasatiempo. Pero más que nada me especializo en resolver problemas o necesidades mediante el código y a ayudar a más desarrolladores en crecer en este mundo del desarrollo web.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "postalCode": "25000",
+      "city": "Saltillo",
+      "countryCode": "MX",
+      "region": "México"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "diegopbernal",
+        "url": "https://www.linkedin.com/in/diegopbernal"
       },
       {
-      "network": "X",
-      "username": "midudev",
-      "url": "https://x.com/midudev"
+        "network": "GitHub",
+        "username": "diegobernal17",
+        "url": "https://github.com/diegobernal17"
+      },
+      {
+        "network": "Platzi",
+        "username": "diego-p-bernal",
+        "url": "https://platzi.com/p/diego-p-bernal"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Voth Solutions",
+      "position": "Web developer",
+      "startDate": "2019-07-10",
+      "endDate": "2024-02-01",
+      "summary": "Desarrollé y lideré diferentes proyectos principalmente como sistemas web, algunos de ellos fueron: un ERP (un sistema que ayudaba a simplificar su proceso de trabajo). Un sistema de comedor industrial. Un sistema para el registro y control de personas con reconocimiento de rostro y huella, con sus reportes. Un sistema para el control de eventos y noticias. Entre otras páginas web.",
+      "highlights": ["Lead developer", "Senior developer", "Web Developer"]
     },
     {
-      "network": "GitHub",
-      "username": "midudev",
-      "url": "https://github.com/midudev"
+      "name": "A&T Sort Company",
+      "position": "Software developer",
+      "startDate": "2018-08-01",
+      "endDate": "2019-04-01",
+      "summary": "Desarrollé nuevos módulos y en el mantenimiento de su sistema ERP interno. Además di comienzo a su aplicación web en React Native",
+      "highlights": []
+    },
+    {
+      "name": "GESO 'PÁGINAS WEB'",
+      "position": "Programador web",
+      "startDate": "2018-06-01",
+      "endDate": "2019-06-01",
+      "summary": "Fui responsable del desarrollo de diversas páginas web para los clientes de dicha empresa utilizando HTML, CSS y VanillaJS",
+      "highlights": []
+    },
+    {
+      "name": "Freelance",
+      "position": "Programador Freelance",
+      "startDate": "2016-01-01",
+      "endDate": "2018-06-01",
+      "summary": "Realicé desde páginas web y programas sencillos hasta sistemas un poco más elaborados, programados en Java, C#, C++, Visual Basic .Net y PHP. Con lo cual con esto inicie a vender lo que programaba a otras personas.",
+      "highlights": []
     }
-  ]
-  },
-  "work": [{
-    "name": "midudev",
-    "position": "Divulgador sobre Programación Web",
-    "url": "https://twitch.tv/midudev",
-    "startDate": "2021-01-01",
-    "endDate": null,
-    "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-    "highlights": [
-      "Started the company"
-    ]
-  },
-  {
-    "name": "Adevinta",
-    "position": "Lead Frontend Architect",
-    "url": "https://twitch.tv/midudev",
-    "startDate": "2016-06-01",
-    "endDate": "2022-09-01",
-    "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-    "highlights": [
-      "Started the company"
-    ]
-  },
-  {
-    "name": "Hubii",
-    "position": "Senior FrontEnd Developer",
-    "startDate": "2011-03-01",
-    "endDate": "2016-05-01",
-    "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnológico de Saltillo",
+      "url": "https://saltillo.tecnm.mx",
+      "area": "Ingeniero en Sistemas Computacionales",
+      "studyType": "Licenciatura",
+      "startDate": "2014-08-01",
+      "endDate": "2019-07-01",
+      "score": "8.2"
+    },
+    {
+      "institution": "CETIS 48",
+      "url": "https://cetis48dgeti.edu.mx/indice/",
+      "area": "Técnico en Informática",
+      "studyType": "Bachillerato",
+      "startDate": "2011-08-01",
+      "endDate": "2014-07-01",
+      "score": "8.0"
+    }
+  ],
   "skills": [
-      {
-        "name": "HTML",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Frontend"
-        ]
-      },
-      {
-        "name": "CSS",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "JavaScript",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-        ]
-      },
-      {
-        "name": "Tailwind",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "TypeScript",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-        ]
-      },
-      {
-        "name": "Node",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-        ]
-      },
-      {
-        "name": "MySQL",
-        "level": "Avanzado",
-        "keywords": [
-          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-        ]
-      },
-      {
-        "name": "Git",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
-        ]
-      },
-      {
-        "name": "GitHub",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-        ]
-      },
-      {
-        "name": "Next.js",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-        ]
-      },
-      {
-        "name": "React",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-        ]
-      }
-    ],
-  "languages": [{
-    "language": "Spanish",
-    "fluency": "Native speaker"
-  }, {
-    "language": "English",
-    "fluency": "Advanced"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "Express",
+      "level": "Avanzado",
+      "keywords": ["Backend", "Node Framework", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Remix.run",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "React Framework"]
+    },
+    {
+      "name": "Astro",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend"]
+    },
+    {
+      "name": "Svelte",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Principiante",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos",
+        "NoSQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Intermedio",
+      "keywords": ["Backend"]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermedio",
+      "keywords": ["Cloud"]
+    },
+    {
+      "name": "Process monitoring",
+      "level": "Intermedio",
+      "keywords": ["Backend"]
+    },
+    {
+      "name": "Server provisioning",
+      "level": "Intermedio",
+      "keywords": ["Backend"]
+    },
+    {
+      "name": "DBA",
+      "level": "Intermedio",
+      "keywords": ["Backend"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Hablante nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Intermedio"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Lectura",
+      "keywords": ["Universo", "Física", "Psicología"]
+    },
+    {
+      "name": "Deporte",
+      "keywords": ["Gimnasio", "Correr"]
+    },
+    {
+      "name": "Videojuegos",
+      "keywords": ["RPG", "FPS", "Multiplayer"]
+    }
+  ],
   "projects": [
     {
-    "name": "mars.codes",
-    "isActive": true,
-    "description": "Historia interactiva con retos de programación para viajar a Marte",
-    "highlights": [
-      "Elige tu propia aventura",
-      "En desarrollo"
-    ],
-    "url": "https://mars.codes"
-  }, {
-    "name": "AdventJS",
-    "isActive": true,
-    "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-    "highlights": [
-      "+1 millón de visitas",
-      "Multidioma",
-      "JavaScript & TypeScript"
-    ],
-    "url": "https://adventjs.dev"
-  }, {
-    "name": "Codember",
-    "isActive": true,
-    "description": "Juego interactivo de programación con retos y secretos",
-    "highlights": [
-      "+2000 usuarios activos",
-      "Retos para cualquier lenguaje"
-    ],
-    "url": "https://codember.dev"
-  }, {
-    "name": "codi.link",
-    "isActive": true,
-    "description": "Playground de código HTML, CSS y JavaScript para compartir",
-    "highlights": [
-      "100k visitas al mes",
-      "Desarrollado por la comunidad"
-    ],
-    "url": "https://codi.link",
-    "github": "https://github.com/midudev/codi.link"
-  }, {
-    "name": "Pruebas Técnicas",
-    "isActive": true,
-    "description": "Lista de pruebas técnicas de empresas para practicar programación",
-    "highlights": [
-      "100% gratuito",
-      "+500 soluciones de la comunidad"
-    ],
-    "url": "https://pruebastecnicas.com",
-    "github": "https://github.com/midudev/codi.link"
-  }, {
-    "name": "miduConf",
-    "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-    "highlights": [
-      "+15k tickets repartidos",
-      "+50k espectadores en directo"
-    ],
-    "url": "https://miduconf.com"
-  }]
+      "name": "Web app 1",
+      "isActive": true,
+      "image": "/projects/project-1.webp",
+      "description": "Sistema personalizado para la gestión de clientes, cotizaciones y vendedores con sistema de reportes.",
+      "highlights": ["CRM", "Cotizador", "Reportes"],
+      "url": null
+    },
+    {
+      "name": "Web app 2",
+      "isActive": false,
+      "image": "/projects/project-2.webp",
+      "description": "Sistema a la medida para el uso empresarial el cual facilita el control y registro del flujo de trabajo de la empresa.",
+      "highlights": ["ERP", "Cotizador", "Reportes"],
+      "url": null
+    },
+    {
+      "name": "Comedor industrial",
+      "isActive": true,
+      "image": "/projects/project-3.webp",
+      "description": "Pequeño sistema de ventas para un comedor industrial, el cual lleva el control de comidas y empleados.",
+      "highlights": ["CRUD", "Sistema de ventas"],
+      "url": null
+    },
+    {
+      "name": "Eventos y contenido",
+      "isActive": true,
+      "image": "/projects/project-4.webp",
+      "description": "Aplicación tipo PWA (app web que se instala) para ver eventos y noticias sobre música y entretenimiento.",
+      "highlights": ["Eventos", "Noticias", "Entretenimiento"],
+      "url": null
+    },
+    {
+      "name": "Control de personas",
+      "isActive": true,
+      "image": "/projects/project-5.webp",
+      "description": "Sistema para el registro y control de personas y varias acciones más, con reconocimiento facial y de huellas integrado.",
+      "highlights": [
+        "Registro de personas",
+        "Reconocimiento facial",
+        "Reconocimiento dactilar"
+      ],
+      "url": null
+    },
+    {
+      "name": "ERP",
+      "isActive": true,
+      "image": "/projects/project-6.webp",
+      "description": "Software a medida para el control interno de procesos y actividades de dicha empresa.",
+      "highlights": ["ERP", "Sistema completo"],
+      "url": null
+    },
+    {
+      "name": "node-hbs-to-pdf",
+      "isActive": true,
+      "image": "/projects/project-7.webp",
+      "description": "NPM package para convertir templates de handlerbars a PDF. Usado en la creación de reportes en PDF.",
+      "highlights": ["NPM Package", "libreria", "node"],
+      "url": "https://www.npmjs.com/package/node-hbs-to-pdf"
+    },
+    {
+      "name": "addresses api service",
+      "isActive": true,
+      "image": "/projects/project-8.webp",
+      "description": "API de direcciones de México. Para obtener los estados, ciudades y colonias.",
+      "highlights": ["API", "Service", "Node"],
+      "url": null
+    },
+    {
+      "name": "calculadora de matrices",
+      "isActive": false,
+      "description": "Primer desarrollo grande y de código abierto para hacer diferentes cálculos con matrices.",
+      "highlights": ["Java", "Legacy"],
+      "url": null
+    }
+  ]
 }

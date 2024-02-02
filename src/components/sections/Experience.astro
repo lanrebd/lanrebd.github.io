@@ -1,44 +1,75 @@
 ---
-import Section from "../Section.astro"
+import { getYears } from "@/utils/format";
+import Section from "../Section.astro";
 
-import { work } from "@cv"
+import { getI18N } from "@/i18n/";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+const { work } = i18n.cv;
 ---
 
-<Section title="Experiencia laboral">
+<Section title={i18n.WORK_EXPERIENCE}>
   <ul>
     {
-      work.map(
-        ({ name, startDate, endDate, position, summary, highlights }) => {
-          const startYear = new Date(startDate).getFullYear()
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
-          const years = `${startYear} - ${endYear}`
-
-          return (
-            <li>
-              <article>
-                <header>
-                  <div>
-                    <h3>{name}</h3>
-                    <h4>{position}</h4>
-                  </div>
-
-                  <time>{years}</time>
-                </header>
-
-                <footer>
-                  <p>{summary}</p>
-                </footer>
-              </article>
-            </li>
-          )
-        }
+      work[0].endDate !== null && (
+        <li class="next-company no-print">
+          <article>
+            <header>
+              <div>
+                <h3>{i18n.THE_NEXT_BIG_COMPANY.TITLE}</h3>
+                <h4> -</h4>
+              </div>
+              <time>{i18n.THE_NEXT_BIG_COMPANY.COMING_SOON}</time>
+            </header>
+            <footer>
+              <p>{i18n.THE_NEXT_BIG_COMPANY.SUMMARY}</p>
+            </footer>
+          </article>
+        </li>
       )
+    }
+    {
+      work.map(({ name, startDate, endDate, position, summary }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>{name}</h3>
+                  <h4>{position}</h4>
+                </div>
+                <time>{getYears(startDate, endDate)}</time>
+              </header>
+              <footer>
+                <p>{summary}</p>
+              </footer>
+            </article>
+          </li>
+        );
+      })
     }
   </ul>
 </Section>
 
 <style>
+  .next-company {
+    background-color: rgba(125, 125, 125, 0.1);
+    padding: 14px;
+    margin: -10px;
+    margin-top: 0;
+    border-radius: 4px;
+    opacity: 0.7;
+    transform: scale(0.95);
+    user-select: none;
+
+    transition: all 300ms ease-in-out;
+    &:hover {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
   ul {
     display: flex;
     flex-direction: column;

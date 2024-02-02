@@ -1,0 +1,26 @@
+{
+  "PORTFOLIO_OF": "Portafolio de",
+  "ABOUT_ME": "Sobre mí",
+  "WORK_EXPERIENCE": "Experiencia laboral",
+  "HERO": {
+    "SEND_EMAIL_TO": "Enviar un correo electrónico a",
+    "CALL_TO": "Llamar por teléfono a",
+    "VISIT_PROFILE": "Visitar el perfil de",
+    "ON": "en"
+  },
+  "THE_NEXT_BIG_COMPANY": {
+    "TITLE": "La siguiente gran empresa",
+    "SUMMARY": "Actualmente me encuentro en la búsqueda de una empresa que me  brinde el apoyo para poder crecer aún más en el ámbito laboral. Contáctame y logremos que ese próximo gran cliente se lleve una gran satisfacción.",
+    "COMING_SOON": "Próximamente"
+  },
+  "EDUCATION": "Educación",
+  "PROJECTS": "Proyectos",
+  "SKILLS": "Habilidades",
+  "HOBBIES": "Intereses / Pasatiempos",
+  "HOBBIES_SUBTITLE": "Porque no todo es programar",
+  "KB_MANAGER": {
+    "ACTIONS": "Acciones",
+    "PRINT": "Imprimir",
+    "GO_TO": "Ir al"
+  }
+}

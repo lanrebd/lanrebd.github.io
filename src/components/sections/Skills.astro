@@ -1,10 +1,14 @@
 ---
-import Section from "../Section.astro"
+import Section from "../Section.astro";
 
-import { skills } from "@cv"
+import { getI18N } from "@/i18n/";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+const { skills } = i18n.cv;
 ---
 
-<Section title="Skills">
+<Section title={i18n.SKILLS}>
   <ul>
     {
       skills.map(({ name }) => (
@@ -24,11 +28,22 @@ import { skills } from "@cv"
   }
 
   li {
-    border-radius: 6px;
-    background: #eee;
-    color: black;
+    background-color: #eee;
+    color: #555;
     font-size: 0.8rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+
+    transition-property: background-color, color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.1s;
+
+    user-select: none;
+  }
+
+  li:hover {
+    background-color: #ccc;
+    color: #000;
   }
 </style>

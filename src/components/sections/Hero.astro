@@ -1,26 +1,33 @@
 ---
-import { basics } from "@cv"
-import Section from "@/components/Section.astro"
-import Mail from "@/icons/Mail.astro"
-import Phone from "@/icons/Phone.astro"
-import X from "@/icons/X.astro"
-import LinkedIn from "@/icons/LinkedIn.astro"
-import GitHub from "@/icons/GitHub.astro"
-import WorldMap from "@/icons/WorldMap.astro"
+import Section from "@/components/Section.astro";
+import Mail from "@/icons/Mail.astro";
+import Phone from "@/icons/Phone.astro";
+import X from "@/icons/X.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Platzi from "@/icons/Platzi.astro";
+import WorldMap from "@/icons/WorldMap.astro";
 
-const { name, label, image, location, profiles, phone, email } = basics
-const { city, region } = location
+import { getI18N } from "@/i18n/";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+
+const { name, label, image, location, profiles, phone, email } = i18n.cv.basics;
+const shortName = name.split(" ")[0];
+const { city, region } = location;
 
 const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   LinkedIn,
   X,
-}
+  Platzi,
+};
 
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
-const linkedUrl = linkedInfo?.url
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -30,7 +37,13 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       <h2>{label}</h2>
       <span>
         <WorldMap />
-        {city}, {region}
+        <a
+          href={`https://www.google.com/maps/place/${city}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {city}, {region}
+        </a>
       </span>
       <footer class="print">
         {printInfo}
@@ -40,7 +53,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              title={`${i18n.HERO.SEND_EMAIL_TO} ${shortName}: ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -52,7 +65,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           phone && (
             <a
               href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
+              title={`${i18n.HERO.CALL_TO} ${shortName}: ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -61,19 +74,18 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           )
         }
         {
-          profiles.map(({ network, url, username }) => {
-            const Icon = SOCIAL_ICONS[network]
-
+          profiles.map(({ network, url }) => {
+            const Icon = SOCIAL_ICONS[network];
             return (
               <a
                 href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
+                title={`${i18n.HERO.VISIT_PROFILE} ${shortName} ${i18n.HERO.ON} ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Icon />
               </a>
-            )
+            );
           })
         }
       </footer>
@@ -116,6 +128,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     object-fit: cover;
     width: 128px;
     border-radius: 16px;
+    background-color: rgb(202, 202, 202);
   }
 
   span {

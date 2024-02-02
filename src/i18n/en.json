@@ -1,0 +1,26 @@
+{
+  "PORTFOLIO_OF": "Portfolio of",
+  "ABOUT_ME": "About me",
+  "WORK_EXPERIENCE": "Work experience",
+  "HERO": {
+    "SEND_EMAIL_TO": "Send an email to",
+    "CALL_TO": "Call by phone to",
+    "VISIT_PROFILE": "Visit the profile of",
+    "ON": "on"
+  },
+  "THE_NEXT_BIG_COMPANY": {
+    "TITLE": "The next big company",
+    "SUMMARY": "I am currently looking for a company that will provide me with the support to be able to grow even more in the professional field. Contact me, and together, let's ensure that the next significant client has a great experience.",
+    "COMING_SOON": "Coming soon"
+  },
+  "EDUCATION": "Education",
+  "PROJECTS": "Projects",
+  "SKILLS": "Skills",
+  "HOBBIES": "Interests/Hobbies",
+  "HOBBIES_SUBTITLE": "Because everything is not about programming.",
+  "KB_MANAGER": {
+    "ACTIONS": "Actions",
+    "PRINT": "Print",
+    "GO_TO": "Go to"
+  }
+}

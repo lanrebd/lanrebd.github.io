@@ -1,0 +1,72 @@
+---
+import Section from "../Section.astro";
+import { getI18N } from "@/i18n/";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+const { interests } = i18n.cv;
+---
+
+<Section title={i18n.HOBBIES} noPrint>
+  <p>{i18n.HOBBIES_SUBTITLE}</p>
+  <ul>
+    {
+      interests.map(({ name, keywords }) => (
+        <li>
+          <h4>{name}</h4>
+          <div>
+            {keywords.map((keyword) => (
+              <span>{keyword}</span>
+            ))}
+          </div>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  p {
+    margin-bottom: 6px;
+  }
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    li {
+      border: 1px solid #eee;
+      border-radius: 6px;
+      padding: 6px 8px;
+
+      h4 {
+        font-weight: 400;
+        margin-bottom: 4px;
+      }
+
+      div {
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        span {
+          background-color: #eee;
+          color: #555;
+          font-size: 0.8rem;
+          font-weight: 500;
+          padding: 0.2rem 0.6rem;
+          border-radius: 6px;
+
+          transition-property: background-color, color;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-duration: 0.1s;
+
+          user-select: none;
+          &:hover {
+            background-color: #ccc;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+</style>

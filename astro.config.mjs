@@ -8,4 +8,6 @@ export default defineConfig({
       prefixDefaultLocale: false,
     },
   },
+  site: "https://diegobernal17.github.io",
+  base: "/minimalist-portfolio-json",
 });

@@ -1,5 +1,6 @@
 ---
 import Section from "../Section.astro";
+import SkllIcon from "@/components/SkillIcon.astro";
 
 import { getI18N } from "@/i18n/";
 
@@ -13,7 +14,7 @@ const { skills } = i18n.cv;
     {
       skills.map(({ name }) => (
         <li>
-          <span>{name}</span>
+          <SkllIcon name={name} /> <span>{name}</span>
         </li>
       ))
     }
@@ -28,12 +29,17 @@ const { skills } = i18n.cv;
   }
 
   li {
-    background-color: #eee;
+    display: flex;
+    align-items: center;
+    gap: 4px;
     color: #555;
     font-size: 0.8rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
     border-radius: 6px;
+
+    background-color: rgb(0 0 0 / 10%);
+    filter: invert(50%);
 
     transition-property: background-color, color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -43,7 +49,17 @@ const { skills } = i18n.cv;
   }
 
   li:hover {
-    background-color: #ccc;
+    background-color: rgb(0 0 0 / 30%);
     color: #000;
+  }
+
+  @media print {
+    li {
+      background-color: rgb(248, 248, 248);
+      filter: none;
+      transition-property: none;
+      user-select: text;
+      color: var(--text-color);
+    }
   }
 </style>

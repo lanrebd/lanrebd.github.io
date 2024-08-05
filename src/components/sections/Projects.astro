@@ -43,7 +43,7 @@ const { projects } = i18n.cv;
               </article>
             </li>
           );
-        }
+        },
       )
     }
   </ul>
@@ -74,7 +74,7 @@ const { projects } = i18n.cv;
 
   article {
     border-radius: 8px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid rgb(200 200 200 / 50%);
     gap: 16px;
     display: flex;
     flex-direction: column;
@@ -88,13 +88,11 @@ const { projects } = i18n.cv;
 
   article h3 {
     margin-bottom: 4px;
+    font-weight: 500;
   }
 
-  article a {
-    color: #111;
-    &:hover {
-      text-decoration: underline;
-    }
+  article a :hover {
+    text-decoration: underline;
   }
 
   article p {

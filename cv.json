@@ -7,7 +7,7 @@
     "email": "diego.bernal17@gmail.com",
     "phone": "+52 8442220828",
     "url": "https://diegobernal17.github.io/",
-    "summary": "Con más de 5 años de experiencia en el desarrollo web. Me he adentrado en este mundo de la programación y he desarrollado una gran variedad de páginas y aplicaciones web para diversos clientes y también como pasatiempo. Pero más que nada me especializo en resolver problemas o necesidades mediante el código y a ayudar a más desarrolladores en crecer en este mundo del desarrollo web.",
+    "summary": "Con más de 5 años de experiencia en el desarrollo web, me he adentrado en este mundo de la programación y he desarrollado una gran variedad de páginas y aplicaciones web para diversos clientes y también como pasatiempo. Pero más que nada me especializo en resolver problemas o necesidades mediante el código y a ayudar a más desarrolladores en crecer en este mundo de la programación.",
     "location": {
       "address": "",
       "postalCode": "25000",
@@ -39,7 +39,7 @@
       "position": "Web developer",
       "startDate": "2019-07-10",
       "endDate": "2024-02-01",
-      "summary": "Desarrollé y lideré diferentes proyectos principalmente como sistemas web, algunos de ellos fueron: un ERP (un sistema que ayudaba a simplificar su proceso de trabajo). Un sistema de comedor industrial. Un sistema para el registro y control de personas con reconocimiento de rostro y huella, con sus reportes. Un sistema para el control de eventos y noticias. Entre otras páginas web.",
+      "summary": "Desarrollé y lideré diferentes proyectos principalmente sistemas web, algunos de ellos fueron: un ERP (un sistema que ayudaba a simplificar el proceso de trabajo). Un sistema de comedor industrial. Un sistema para el registro y control de personas con reconocimiento de rostro y huella, con sus reportes. Un sistema para el control de eventos y noticias. Entre otras aplicaciones y páginas web.",
       "highlights": ["Lead developer", "Senior developer", "Web Developer"]
     },
     {
@@ -178,6 +178,11 @@
       "name": "Svelte",
       "level": "Avanzado",
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Angular",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "JavaScript Framework", "UI"]
     },
     {
       "name": "MySQL",

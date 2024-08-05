@@ -58,6 +58,7 @@ const { work } = i18n.cv;
     padding: 14px;
     margin: -10px;
     margin-top: 0;
+    margin-bottom: 0;
     border-radius: 4px;
     opacity: 0.7;
     transform: scale(0.95);
@@ -73,16 +74,16 @@ const { work } = i18n.cv;
   ul {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 28px;
   }
 
   article h3 {
     font-weight: 500;
-    color: #111;
+    color: var(--title-color);
   }
 
   article h4 {
-    color: #222;
+    color: var(--light-color);
     font-weight: 400;
   }
 
@@ -90,11 +91,17 @@ const { work } = i18n.cv;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
   }
 
   time {
-    color: #555;
+    color: var(--light-color);
     font-size: 0.85rem;
+  }
+
+  @media print {
+    ul {
+      gap: 14px;
+    }
   }
 </style>

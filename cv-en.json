@@ -39,7 +39,7 @@
       "position": "Web developer",
       "startDate": "2019-07-10",
       "endDate": "2024-02-01",
-      "summary": "I developed and led various projects, mainly web systems. Some of them include: an ERP (a system that helped simplify work processes), an industrial cafeteria system, a system for registration and control of individuals with facial and fingerprint recognition, along with its corresponding reports. Additionally, I worked on a system for event and news management, among other websites.",
+      "summary": "I developed and led various projects, mainly web systems. Some of them include: an ERP (a system that helped simplify work processes), an industrial cafeteria system, a system for registration and control of individuals with facial and fingerprint recognition, along with its corresponding reports. Additionally, I worked on a system for event and news management, among other web applications and websites.",
       "highlights": ["Lead developer", "Senior developer", "Web Developer"]
     },
     {
@@ -173,6 +173,11 @@
       "name": "Svelte",
       "level": "Advanced",
       "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Angular",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "JavaScript Framework", "UI"]
     },
     {
       "name": "MySQL",

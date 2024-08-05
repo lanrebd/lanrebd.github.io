@@ -41,6 +41,7 @@ const { image, summary } = basics;
   figure {
     margin: 0;
     padding: 0;
+    background-color: var(--bg-color);
   }
 
   a {
@@ -81,10 +82,11 @@ const { image, summary } = basics;
       "Open Sans",
       "Helvetica Neue",
       sans-serif;
+    color: var(--title-color);
   }
 
   p {
-    color: #666;
+    color: var(--text-color);
     font-size: 0.9rem;
     line-height: 1.5;
     margin: 0;
@@ -105,5 +107,22 @@ const { image, summary } = basics;
     .print {
       display: block !important;
     }
+    body {
+      background-color: #fff;
+    }
   }
+
+  :root {
+    --bg-color: #fcfcfc;
+    --text-color: #666666;
+    --title-color: #111;
+    --light-color: #666;
+  }
+
+  /* .is-dark {
+    --bg-color: #333;
+    --text-color: #ccc;
+    --title-color: #fff;
+    --light-color: #666;
+  } */
 </style>

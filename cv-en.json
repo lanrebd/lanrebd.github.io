@@ -39,8 +39,82 @@
       "position": "Web developer",
       "startDate": "2019-07-10",
       "endDate": "2024-02-01",
-      "summary": "I developed and led various projects, mainly web systems. Some of them include: an ERP (a system that helped simplify work processes), an industrial cafeteria system, a system for registration and control of individuals with facial and fingerprint recognition, along with its corresponding reports. Additionally, I worked on a system for event and news management, among other web applications and websites.",
-      "highlights": ["Lead developer", "Senior developer", "Web Developer"]
+      "summary": "I developed and led various projects, mainly web systems throughout this company:",
+      "highlights": ["Lead developer", "Senior developer", "Web Developer"],
+      "tasks": [
+        {
+          "summary": "Together with another developer, We developed the frontend, backend (API), and mobile application for a restaurant system.",
+          "technologies": [
+            "TS",
+            "React",
+            "Remix.run",
+            "TailwindCSS",
+            "NodeJS",
+            "Express",
+            "PostgreSQL"
+          ]
+        },
+        {
+          "summary": "Developed a custom system for a global transportation company to manage and track customers, create quotes, and manage sales agents to maintain control of information and generate charts and reports.",
+          "technologies": [
+            "TS",
+            "React",
+            "Remix.run",
+            "TailwindCSS",
+            "NodeJS",
+            "Express",
+            "PostgreSQL"
+          ]
+        },
+        {
+          "summary": "Implemented and created a custom system for a plumbing contractor company that facilitated the registration and control of the company's workflow.",
+          "technologies": [
+            "TS",
+            "React",
+            "Remix.run",
+            "TailwindCSS",
+            "NodeJS",
+            "Express",
+            "PostgreSQL"
+          ]
+        },
+        {
+          "summary": "Created a small web system for the registration and management of employees and dishes for an industrial cafeteria, used by various companies.",
+          "technologies": ["TS", "React", "NextJs", "Firebase", "Electron"]
+        },
+        {
+          "summary": "Developed a web and mobile app (PWA) for a local client aimed at creating art and culture events and content, such as music or recreational events. Additionally, it included multiple features like following creators and communities.",
+          "technologies": [
+            "TS",
+            "Svelte",
+            "Firebase",
+            "Vite",
+            "PWA",
+            "NodeJS",
+            "Express",
+            "MongoDB"
+          ]
+        },
+        {
+          "summary": "Led the development of a custom system focused on registering individuals and creating records of entries and exits, as well as other functionalities such as searching for people in different databases, either by name, face recognition, and/or fingerprint scanning.",
+          "technologies": [
+            "TS",
+            "React",
+            "NodeJS",
+            "Express",
+            "MariaDB",
+            "Python",
+            "AWS"
+          ]
+        },
+        {
+          "summary": "With other developers, we successfully built an ERP (Enterprise Resource Planning), a large custom development that covered all the workflow processes of a private company.",
+          "technologies": ["JS", "React", "NodeJS", "Express", "MariaDB"]
+        },
+        {
+          "summary": "Developed internal libraries for use in ongoing projects: node-hbs-to-pdf (for generating PDFs), internal react manage forms (for handling forms), Internal UI Framework (Design components), and created an address API service for internal use."
+        }
+      ]
     },
     {
       "name": "A&T Sort Company",
@@ -91,17 +165,20 @@
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": ["Web Development", "Frontend"]
+      "keywords": ["Web Development", "Frontend"],
+      "category": "Frontend"
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": ["Web Development", "Frontend", "Responsive design"]
+      "keywords": ["Web Development", "Frontend", "Responsive design"],
+      "category": "Frontend"
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"],
+      "category": "Frontend"
     },
     {
       "name": "TypeScript",
@@ -111,17 +188,8 @@
         "Frontend",
         "Backend",
         "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Advanced",
-      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
-    },
-    {
-      "name": "Express",
-      "level": "Advanced",
-      "keywords": ["Backend", "Node Framework", "JavaScript", "Server"]
+      ],
+      "category": "Frontend"
     },
     {
       "name": "Tailwind",
@@ -131,22 +199,38 @@
         "Frontend",
         "CSS Framework",
         "Responsive Design"
-      ]
+      ],
+      "category": "Frontend"
+    },
+    {
+      "name": "Node",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"],
+      "category": "Backend"
+    },
+    {
+      "name": "Express",
+      "level": "Advanced",
+      "keywords": ["Backend", "Node Framework", "JavaScript", "Server"],
+      "category": "Backend"
     },
     {
       "name": "Git",
       "level": "Advanced",
-      "keywords": ["Version control", "Collaboration", "Source code"]
+      "keywords": ["Version control", "Collaboration", "Source code"],
+      "category": "Fullstack"
     },
     {
       "name": "GitHub",
       "level": "Advanced",
-      "keywords": ["Version control", "Collaboration", "Source code", "Git"]
+      "keywords": ["Version control", "Collaboration", "Source code", "Git"],
+      "category": "Fullstack"
     },
     {
       "name": "React",
       "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"],
+      "category": "Frontend"
     },
     {
       "name": "Next.js",
@@ -157,77 +241,110 @@
         "React Framework",
         "SSR",
         "Static Generation"
-      ]
+      ],
+      "category": "Fullstack"
     },
     {
       "name": "Remix.run",
       "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "Backend", "React Framework"]
+      "keywords": ["Web Development", "Frontend", "Backend", "React Framework"],
+      "category": "Fullstack"
     },
     {
       "name": "Astro",
       "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "Backend"]
+      "keywords": ["Web Development", "Frontend", "Backend"],
+      "category": "Frontend"
     },
     {
       "name": "Svelte",
       "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"],
+      "category": "Frontend"
     },
     {
       "name": "Angular",
       "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "JavaScript Framework", "UI"]
+      "keywords": ["Web Development", "Frontend", "JavaScript Framework", "UI"],
+      "category": "Frontend"
+    },
+    {
+      "name": "VueJs",
+      "level": "Basic",
+      "keywords": ["Web Development", "Frontend", "JavaScript Framework", "UI"],
+      "category": "Frontend"
     },
     {
       "name": "MySQL",
       "level": "Advanced",
-      "keywords": ["Bases de Datos", "SQL", "Data Storage", "Backend"]
+      "keywords": ["Database", "SQL", "Data Storage", "Backend"],
+      "category": "Databases"
     },
     {
       "name": "PostgreSQL",
       "level": "Principiante",
-      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+      "keywords": ["Database", "SQL", "Data Storage", "Backend"],
+      "category": "Databases"
     },
     {
       "name": "MongoDB",
       "level": "Intermediate",
-      "keywords": ["Databases", "NoSQL", "Data Storage", "Backend"]
+      "keywords": ["Database", "NoSQL", "Data Storage", "Backend"],
+      "category": "Databases"
     },
     {
       "name": "Linux",
       "level": "Intermediate",
-      "keywords": ["Backend"]
+      "keywords": ["Backend"],
+      "category": "Other"
     },
     {
       "name": "AWS",
       "level": "Intermediate",
-      "keywords": ["Cloud"]
+      "keywords": ["Cloud"],
+      "category": "Other"
     },
     {
       "name": "Process monitoring",
       "level": "Intermediate",
-      "keywords": ["Backend"]
+      "keywords": ["Backend"],
+      "category": "Other"
     },
     {
       "name": "Server provisioning",
       "level": "Intermediate",
-      "keywords": ["Backend"]
+      "keywords": ["Backend"],
+      "category": "Other"
     },
     {
       "name": "DBA",
       "level": "Intermediate",
-      "keywords": ["Backend"]
+      "keywords": ["Backend"],
+      "category": "Other"
+    },
+    {
+      "name": "Redis",
+      "level": "Intermediate",
+      "keywords": ["Database", "In-Memory", "Data Storage", "Backend"],
+      "category": "Databases"
+    },
+    {
+      "name": "NestJS",
+      "level": "Basic",
+      "keywords": ["Backend", "JavaScript", "Server"],
+      "category": "Backend"
     }
   ],
   "languages": [
     {
       "language": "Español",
-      "fluency": "Native Speaker"
+      "fluency": "Native Speaker",
+      "level": "Native"
     },
     {
       "language": "Inglés",
-      "fluency": "Intermediate"
+      "fluency": "Intermediate",
+      "level": "B2"
     }
   ],
   "interests": [

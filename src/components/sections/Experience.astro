@@ -30,7 +30,7 @@ const { work } = i18n.cv;
       )
     }
     {
-      work.map(({ name, startDate, endDate, position, summary }) => {
+      work.map(({ name, startDate, endDate, position, summary, tasks }) => {
         return (
           <li>
             <article>
@@ -41,8 +41,18 @@ const { work } = i18n.cv;
                 </div>
                 <time>{getYears(startDate, endDate)}</time>
               </header>
-              <footer>
+              <footer class="work-experience">
                 <p>{summary}</p>
+                <ul>
+                  {tasks?.map(({ summary, technologies }) => (
+                    <li>
+                      {summary}{" "}
+                      {technologies && technologies?.length > 0 && (
+                        <small>({technologies?.join(", ")})</small>
+                      )}
+                    </li>
+                  ))}
+                </ul>
               </footer>
             </article>
           </li>
@@ -97,6 +107,23 @@ const { work } = i18n.cv;
   time {
     color: var(--light-color);
     font-size: 0.85rem;
+  }
+
+  .work-experience {
+    font-size: 0.9rem;
+    p {
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: disc;
+      margin-left: 20px;
+      color: var(--light-color);
+      gap: 10px;
+      small {
+        color: var(---color);
+        opacity: 0.6;
+      }
+    }
   }
 
   @media print {

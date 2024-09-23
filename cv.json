@@ -40,7 +40,13 @@
       "startDate": "2019-07-10",
       "endDate": "2024-02-01",
       "summary": "Desarrollé y lideré diferentes proyectos principalmente sistemas web, algunos de ellos fueron: un ERP (un sistema que ayudaba a simplificar el proceso de trabajo). Un sistema de comedor industrial. Un sistema para el registro y control de personas con reconocimiento de rostro y huella, con sus reportes. Un sistema para el control de eventos y noticias. Entre otras aplicaciones y páginas web.",
-      "highlights": ["Lead developer", "Senior developer", "Web Developer"]
+      "highlights": ["Lead developer", "Senior developer", "Web Developer"],
+      "tasks": [
+        {
+          "summary": "",
+          "technologies": []
+        }
+      ]
     },
     {
       "name": "A&T Sort Company",

@@ -6,7 +6,7 @@
     "birthday": "1996-01-17",
     "email": "diego.bernal17@gmail.com",
     "phone": "+52 8442220828",
-    "url": "https://diegobernal17.github.io/",
+    "url": "https://lanrebd.github.io/",
     "summary": "Con más de 5 años de experiencia en el desarrollo web, me he adentrado en este mundo de la programación y he desarrollado una gran variedad de páginas y aplicaciones web para diversos clientes y también como pasatiempo. Pero más que nada me especializo en resolver problemas o necesidades mediante el código y a ayudar a más desarrolladores en crecer en este mundo de la programación.",
     "location": {
       "address": "",
@@ -23,8 +23,8 @@
       },
       {
         "network": "GitHub",
-        "username": "diegobernal17",
-        "url": "https://github.com/diegobernal17"
+        "username": "lanrebd",
+        "url": "https://github.com/lanrebd"
       },
       {
         "network": "Platzi",
@@ -97,153 +97,174 @@
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend"]
+      "keywords": ["Web Development", "Frontend"],
+      "category": "Frontend"
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      "keywords": ["Web Development", "Frontend", "Responsive design"],
+      "category": "Frontend"
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"],
+      "category": "Frontend"
     },
     {
       "name": "TypeScript",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Desarrollo Web",
+        "Web Development",
         "Frontend",
         "Backend",
         "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
-    },
-    {
-      "name": "Express",
-      "level": "Avanzado",
-      "keywords": ["Backend", "Node Framework", "JavaScript", "Servidor"]
+      ],
+      "category": "Fullstack"
     },
     {
       "name": "Tailwind",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Desarrollo Web",
+        "Web Development",
         "Frontend",
         "CSS Framework",
-        "Diseño Responsive"
-      ]
+        "Responsive Design"
+      ],
+      "category": "Frontend"
+    },
+    {
+      "name": "Node",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"],
+      "category": "Backend"
+    },
+    {
+      "name": "Express",
+      "level": "Advanced",
+      "keywords": ["Backend", "Node Framework", "JavaScript", "Server"],
+      "category": "Backend"
     },
     {
       "name": "Git",
-      "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      "level": "Advanced",
+      "keywords": ["Version control", "Collaboration", "Source code"],
+      "category": "Fullstack"
     },
     {
       "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
-      ]
+      "level": "Advanced",
+      "keywords": ["Version control", "Collaboration", "Source code", "Git"],
+      "category": "Fullstack"
     },
     {
       "name": "React",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"],
+      "category": "Frontend"
     },
     {
       "name": "Next.js",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Desarrollo Web",
+        "Web Development",
         "Frontend",
         "React Framework",
         "SSR",
         "Static Generation"
-      ]
+      ],
+      "category": "Fullstack"
     },
     {
       "name": "Remix.run",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "React Framework"]
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend", "Backend", "React Framework"],
+      "category": "Fullstack"
     },
     {
       "name": "Astro",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend"]
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend", "Backend"],
+      "category": "Fullstack"
     },
     {
       "name": "Svelte",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"],
+      "category": "Frontend"
     },
     {
       "name": "Angular",
       "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "JavaScript Framework", "UI"]
+      "keywords": ["Web Development", "Frontend", "JavaScript Framework", "UI"],
+      "category": "Frontend"
+    },
+    {
+      "name": "VueJs",
+      "level": "Basic",
+      "keywords": ["Web Development", "Frontend", "JavaScript Framework", "UI"],
+      "category": "Frontend"
     },
     {
       "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
+      "level": "Advanced",
+      "keywords": ["Database", "SQL", "Data Storage", "Backend"],
+      "category": "Databases"
     },
     {
       "name": "PostgreSQL",
       "level": "Principiante",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
+      "keywords": ["Database", "SQL", "Data Storage", "Backend"],
+      "category": "Databases"
     },
     {
       "name": "MongoDB",
-      "level": "Intermedio",
-      "keywords": [
-        "Bases de Datos",
-        "NoSQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
+      "level": "Intermediate",
+      "keywords": ["Database", "NoSQL", "Data Storage", "Backend"],
+      "category": "Databases"
     },
     {
       "name": "Linux",
-      "level": "Intermedio",
-      "keywords": ["Backend"]
+      "level": "Intermediate",
+      "keywords": ["Backend", "Operating System"],
+      "category": "Other"
     },
     {
       "name": "AWS",
-      "level": "Intermedio",
-      "keywords": ["Cloud"]
+      "level": "Intermediate",
+      "keywords": ["Cloud"],
+      "category": "Other"
     },
     {
       "name": "Process monitoring",
-      "level": "Intermedio",
-      "keywords": ["Backend"]
+      "level": "Intermediate",
+      "keywords": ["Backend"],
+      "category": "Other"
     },
     {
       "name": "Server provisioning",
-      "level": "Intermedio",
-      "keywords": ["Backend"]
+      "level": "Intermediate",
+      "keywords": ["Backend"],
+      "category": "Other"
     },
     {
       "name": "DBA",
-      "level": "Intermedio",
-      "keywords": ["Backend"]
+      "level": "Intermediate",
+      "keywords": ["Backend"],
+      "category": "Other"
+    },
+    {
+      "name": "Redis",
+      "level": "Intermediate",
+      "keywords": ["Database", "In-Memory", "Data Storage", "Backend"],
+      "category": "Databases"
+    },
+    {
+      "name": "NestJS",
+      "level": "Basic",
+      "keywords": ["Backend", "JavaScript", "Server"],
+      "category": "Backend"
     }
   ],
   "languages": [

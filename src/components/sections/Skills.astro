@@ -7,21 +7,53 @@ import { getI18N } from "@/i18n/";
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
 const { skills } = i18n.cv;
+
+const allSkills: { [x: string]: typeof skills } = {
+  frontend: [],
+  backend: [],
+  fullstack: [],
+  databases: [],
+  other: [],
+};
+
+skills.forEach((skill) => {
+  if (skill.category.includes("Frontend")) {
+    allSkills.frontend.push(skill);
+  } else if (skill.category.includes("Backend")) {
+    allSkills.backend.push(skill);
+  } else if (skill.category.includes("Fullstack")) {
+    allSkills.fullstack.push(skill);
+  } else if (skill.category.includes("Databases")) {
+    allSkills.databases.push(skill);
+  } else if (skill.category.includes("Other")) {
+    allSkills.other.push(skill);
+  }
+});
 ---
 
-<Section title={i18n.SKILLS}>
-  <ul>
-    {
-      skills.map(({ name }) => (
-        <li>
-          <SkllIcon name={name} /> <span>{name}</span>
-        </li>
-      ))
-    }
-  </ul>
+<Section title={i18n.SKILLS} noPrint>
+  {
+    Object.entries(allSkills).map(([category, skills]) => (
+      <div class="skills">
+        <h4 class="category-title">{category}:</h4>
+        <ul>
+          {skills.map(({ name }) => (
+            <li>
+              <SkllIcon name={name} /> <span>{name}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))
+  }
 </Section>
 
 <style>
+  .category-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+  }
   ul {
     display: inline-flex;
     gap: 8px;

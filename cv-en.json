@@ -6,8 +6,8 @@
     "birthday": "1996-01-17",
     "email": "diego.bernal17@gmail.com",
     "phone": "+52 8442220828",
-    "url": "https://diegobernal17.github.io/",
-    "summary": "With over 5 years of experience in web development, I have delved into the realm of programming, creating a wide range of websites and web applications for diverse clients and also as a hobby. More than anything, my expertise lies in solving problems and addressing needs through code, while also assisting fellow developers in growing within the world of web development.",
+    "url": "https://lanrebd.github.io/",
+    "summary": "Web developer with over 6 years of experience creating high-performance websites and web applications for a diverse range of clients. Skilled in full-stack development, solving complex problems through code, and mentoring junior developers. Passionate about optimizing user experiences and ensuring quality in every project.",
     "location": {
       "address": "",
       "postalCode": "25000",
@@ -23,8 +23,8 @@
       },
       {
         "network": "GitHub",
-        "username": "diegobernal17",
-        "url": "https://github.com/diegobernal17"
+        "username": "lanrebd",
+        "url": "https://github.com/lanrebd"
       },
       {
         "network": "Platzi",
@@ -43,7 +43,7 @@
       "highlights": ["Lead developer", "Senior developer", "Web Developer"],
       "tasks": [
         {
-          "summary": "Together with another developer, We developed the frontend, backend (API), and mobile application for a restaurant system.",
+          "summary": "Developed and launched a multi-platform restaurant management system, covering frontend, backend (API), and supporting the mobile app.",
           "technologies": [
             "TS",
             "React",
@@ -55,7 +55,7 @@
           ]
         },
         {
-          "summary": "Developed a custom system for a global transportation company to manage and track customers, create quotes, and manage sales agents to maintain control of information and generate charts and reports.",
+          "summary": "Designed a custom system for a global transportation company to manage customer relationships and sales, which improved workflow efficiency by 40%.",
           "technologies": [
             "TS",
             "React",
@@ -83,7 +83,7 @@
           "technologies": ["TS", "React", "NextJs", "Firebase", "Electron"]
         },
         {
-          "summary": "Developed a web and mobile app (PWA) for a local client aimed at creating art and culture events and content, such as music or recreational events. Additionally, it included multiple features like following creators and communities.",
+          "summary": "Developed a web and mobile app (PWA) for a local client aimed at creating art and cultural events and content, such as music or recreational events. Additionally, it included multiple features, like following creators and communities.",
           "technologies": [
             "TS",
             "Svelte",
@@ -108,7 +108,7 @@
           ]
         },
         {
-          "summary": "With other developers, we successfully built an ERP (Enterprise Resource Planning), a large custom development that covered all the workflow processes of a private company.",
+          "summary": "Built an ERP (Enterprise Resource Planning) system covering all operations for a private company, significantly enhancing data accuracy and operational speed ",
           "technologies": ["JS", "React", "NodeJS", "Express", "MariaDB"]
         },
         {
@@ -121,12 +121,12 @@
       "position": "Software developer",
       "startDate": "2018-08-01",
       "endDate": "2019-04-01",
-      "summary": "I developed new modules and contributed to the maintenance of their internal ERP system. Additionally, I initiated the development of their web application using React Native.",
+      "summary": "I developed new modules and contributed to the maintenance of their internal ERP system. Additionally, I initiated the development of their mobile application using React Native.",
       "highlights": []
     },
     {
       "name": "GESO 'PÁGINAS WEB'",
-      "position": "Web programeer",
+      "position": "Web Programmer",
       "startDate": "2018-06-01",
       "endDate": "2019-06-01",
       "summary": "I was responsible for the development of various websites for the clients of the company, using HTML, CSS, and VanillaJS.",
@@ -189,7 +189,7 @@
         "Backend",
         "JavaScript Superset"
       ],
-      "category": "Frontend"
+      "category": "Fullstack"
     },
     {
       "name": "Tailwind",
@@ -254,7 +254,7 @@
       "name": "Astro",
       "level": "Advanced",
       "keywords": ["Web Development", "Frontend", "Backend"],
-      "category": "Frontend"
+      "category": "Fullstack"
     },
     {
       "name": "Svelte",
@@ -295,7 +295,7 @@
     {
       "name": "Linux",
       "level": "Intermediate",
-      "keywords": ["Backend"],
+      "keywords": ["Backend", "Operating System"],
       "category": "Other"
     },
     {

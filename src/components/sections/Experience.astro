@@ -1,5 +1,5 @@
 ---
-import { getYears } from "@/utils/format";
+import { getStartAndEndDate } from "@/utils/format";
 import Section from "../Section.astro";
 
 import { getI18N } from "@/i18n/";
@@ -9,7 +9,7 @@ const i18n = getI18N({ currentLocale });
 const { work } = i18n.cv;
 ---
 
-<Section title={i18n.WORK_EXPERIENCE}>
+<Section title={i18n.WORK_EXPERIENCE} breakPage>
   <ul>
     {
       work[0].endDate !== null && (
@@ -39,7 +39,7 @@ const { work } = i18n.cv;
                   <h3>{name}</h3>
                   <h4>{position}</h4>
                 </div>
-                <time>{getYears(startDate, endDate)}</time>
+                <time>{getStartAndEndDate(startDate, endDate)}</time>
               </header>
               <footer class="work-experience">
                 <p>{summary}</p>

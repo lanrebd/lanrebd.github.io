@@ -1,8 +1,8 @@
 ---
-const { title, noPrint } = Astro.props;
+const { title, noPrint, breakPage } = Astro.props;
 ---
 
-<section class={noPrint ? "no-print" : undefined}>
+<section class:list={[{ "no-print": noPrint }, { "break-page": breakPage }]}>
   {title && <h2>{title}</h2>}
   <slot />
 </section>
@@ -30,5 +30,9 @@ const { title, noPrint } = Astro.props;
     section {
       margin-bottom: 26px;
     }
+  }
+
+  .break-page {
+    break-after: page;
   }
 </style>

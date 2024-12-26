@@ -7,7 +7,7 @@
     "email": "diego.bernal17@gmail.com",
     "phone": "+52 8442220828",
     "url": "https://lanrebd.github.io/",
-    "summary": "Web developer with over 6 years of experience creating high-performance websites and web applications for a diverse range of clients. Skilled in full-stack development, solving complex problems through code, and mentoring junior developers. Passionate about optimizing user experiences and ensuring quality in every project.",
+    "summary": "Web developer with over 6 years of experience creating high-performance websites and scalable web application. Skilled in full-stack development with Javascript, solving complex problems through code, and mentoring junior developers. Key accomplishments include leading the development of systems that improved operational efficiency. Passionate about optimizing user experiences and ensuring quality in every project.",
     "location": {
       "address": "",
       "postalCode": "25000",
@@ -38,7 +38,7 @@
       "name": "Voth Solutions",
       "position": "Web developer",
       "startDate": "2019-07-10",
-      "endDate": "2024-02-01",
+      "endDate": "",
       "summary": "I developed and led various projects, mainly web systems throughout this company:",
       "highlights": ["Lead developer", "Senior developer", "Web Developer"],
       "tasks": [
@@ -333,6 +333,12 @@
       "level": "Basic",
       "keywords": ["Backend", "JavaScript", "Server"],
       "category": "Backend"
+    },
+    {
+      "name": "Firebase",
+      "level": "Intermediate",
+      "keywords": ["Frontend", "JavaScript"],
+      "category": "Other"
     }
   ],
   "languages": [

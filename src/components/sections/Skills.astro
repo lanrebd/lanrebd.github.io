@@ -31,7 +31,7 @@ skills.forEach((skill) => {
 });
 ---
 
-<Section title={i18n.SKILLS} noPrint>
+<Section title={i18n.SKILLS}>
   {
     Object.entries(allSkills).map(([category, skills]) => (
       <div class="skills">
@@ -39,7 +39,10 @@ skills.forEach((skill) => {
         <ul>
           {skills.map(({ name }) => (
             <li>
-              <SkllIcon name={name} /> <span>{name}</span>
+              <span class="no-print">
+                <SkllIcon name={name} />
+              </span>
+              <span>{name}</span>
             </li>
           ))}
         </ul>

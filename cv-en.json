@@ -7,7 +7,7 @@
     "email": "diego.bernal17@gmail.com",
     "phone": "+52 8442220828",
     "url": "https://lanrebd.github.io/",
-    "summary": "Web developer with over 6 years of experience creating high-performance websites and scalable web application. Skilled in full-stack development with Javascript, solving complex problems through code, and mentoring junior developers. Key accomplishments include leading the development of systems that improved operational efficiency. Passionate about optimizing user experiences and ensuring quality in every project.",
+    "summary": "Web developer with over 7 years of experience creating high-performance websites and scalable web application. Skilled in full-stack development with Javascript, solving complex problems through code, and mentoring junior developers. Key accomplishments include leading the development of systems that improved operational efficiency. Passionate about optimizing user experiences and ensuring quality in every project.",
     "location": {
       "address": "",
       "postalCode": "25000",
@@ -35,10 +35,19 @@
   },
   "work": [
     {
+      "name": "GH2 Systems",
+      "positiion": "Frontend Developer Sr",
+      "startDate": "2025-02-03",
+      "endDate": "",
+      "summary": "Develop frontend applications using React and React Router v7 (formerly Remix), optimizing efficient client-side routing and intuitive user flows. I work alongside the back-end team to implement scalable solutions for clients in the US.",
+      "highlights": ["Senior developer", "Web Developer", "Frontend"],
+      "tasks": []
+    },
+    {
       "name": "Voth Solutions",
       "position": "Web developer",
       "startDate": "2019-07-10",
-      "endDate": "",
+      "endDate": "2025-01-31",
       "summary": "I developed and led various projects, mainly web systems throughout this company:",
       "highlights": ["Lead developer", "Senior developer", "Web Developer"],
       "tasks": [
@@ -369,10 +378,24 @@
   ],
   "projects": [
     {
+      "name": "Claims Web App",
+      "isActive": true,
+      "description": "A big project that handles claims management for home insurance in the US and currently has thousands of active users.",
+      "highlights": ["CRM", "ERP", "Insurance"],
+      "url": null
+    },
+    {
+      "name": "Restaurant Web App",
+      "isActive": true,
+      "description": "A restaurant management software which includes reports, inventory management, tickets, and a mobile app.",
+      "highlights": ["restaurant management", "sales software", "reports"],
+      "url": null
+    },
+    {
       "name": "Web app 1",
       "isActive": true,
       "image": "/projects/project-1.webp",
-      "description": "Customized system for customer management, quotations, and salespersons with reporting system",
+      "description": "Customized system for customer management, quotations, and salespersons with reporting system.",
       "highlights": ["CRM", "Quoting tool", "Reports"],
       "url": null
     },

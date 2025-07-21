@@ -7,7 +7,7 @@
     "email": "diego.bernal17@gmail.com",
     "phone": "+52 8442220828",
     "url": "https://lanrebd.github.io/",
-    "summary": "Con más de 5 años de experiencia en el desarrollo web, me he adentrado en este mundo de la programación y he desarrollado una gran variedad de páginas y aplicaciones web para diversos clientes y también como pasatiempo. Pero más que nada me especializo en resolver problemas o necesidades mediante el código y a ayudar a más desarrolladores en crecer en este mundo de la programación.",
+    "summary": "Con más de 7 años de experiencia en el desarrollo web, me he adentrado en este mundo de la programación y he desarrollado una gran variedad de páginas y aplicaciones web para diversos clientes y también como pasatiempo. Pero más que nada me especializo en resolver problemas o necesidades mediante el código y a ayudar a más desarrolladores en crecer en este mundo de la programación.",
     "location": {
       "address": "",
       "postalCode": "25000",
@@ -34,6 +34,15 @@
     ]
   },
   "work": [
+    {
+      "name": "GH2 Systems",
+      "positiion": "Frontend Developer Sr",
+      "startDate": "2025-02-03",
+      "endDate": "",
+      "summary": "Desarrollo aplicaciones frontend utilizando React y React Router v7 (anteriormente Remix), optimizando un enrutamiento eficiente del lado del cliente y flujos de usuario intuitivos. Trabajo en conjunto con el equipo de backend para implementar soluciones escalables para clientes en Estados Unidos.",
+      "highlights": ["Senior developer", "Web Developer", "Frontend"],
+      "tasks": []
+    },
     {
       "name": "Voth Solutions",
       "position": "Web developer",
@@ -292,6 +301,24 @@
     }
   ],
   "projects": [
+    {
+      "name": "Aplicación Web de Reclamaciones",
+      "isActive": true,
+      "description": "Un gran proyecto que gestiona la administración de reclamaciones para seguros de hogar en EE. UU. y que actualmente cuenta con miles de usuarios activos.",
+      "highlights": ["CRM", "ERP", "Seguros"],
+      "url": null
+    },
+    {
+      "name": "Aplicación Web para Restaurantes",
+      "isActive": true,
+      "description": "Un software de gestión para restaurantes que incluye reportes, gestión de inventario, tickets y una aplicación móvil.",
+      "highlights": [
+        "gestión de restaurantes",
+        "software de ventas",
+        "reportes"
+      ],
+      "url": null
+    },
     {
       "name": "Web app 1",
       "isActive": true,
